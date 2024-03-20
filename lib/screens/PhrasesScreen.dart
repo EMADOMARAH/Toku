@@ -8,7 +8,7 @@ class PhrasesScreen extends StatelessWidget {
   final List<ItemModel> phrases = const [
     ItemModel(
         sound: 'sounds/phrases/are_you_coming.wav',
-        jpName: 'Yes i am coming',
+        jpName: '(Kimasu ka?',
         enName: 'Are you coming ?'),
     ItemModel(
         sound: 'sounds/phrases/dont_forget_to_subscribe.wav',

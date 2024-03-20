@@ -63,6 +63,8 @@ class PhrasesItem extends StatelessWidget {
             padding: const EdgeInsets.only(left: 16.0),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment:CrossAxisAlignment.start,
+
               children: [
                 Text(
                   model.jpName,
